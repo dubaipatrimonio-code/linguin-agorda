@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /auth/
+Disallow: /security/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /config/
+Disallow: /*?token=*
+Disallow: /*?key=*
+Disallow: /*?session=*
+
+# Permitir apenas páginas públicas
+Allow: /
+Allow: /menu
+Allow: /about
+Allow: /contact
+
+Sitemap: https://yourdomain.com/sitemap.xml
